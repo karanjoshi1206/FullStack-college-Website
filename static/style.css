@@ -1,0 +1,304 @@
+*{
+    margin: 0px;
+    
+}
+body{
+  background-color: rgb(233, 255, 255);
+}
+.image{
+
+    display: inline;    
+    position: absolute;
+    top: 30px;
+    left: 200px;
+}
+.image img{
+
+    height: 150px;
+    width: 180px;
+
+}
+.name h2{
+    font-size: 2.3rem;
+}
+.name h3{
+    font-size: 1.4rem;
+}
+.name{
+    font-family: 'Bree Serif', serif;
+    display: inline;
+    position: relative;
+    top: 30px;
+    left: 400px;
+}
+.header{
+    top: 0px;
+    height: 180px;
+    width: 100%;
+    background-color: rgb(219, 219, 219);
+}
+.black{
+    background-color: black;
+    width: 100%;
+}
+.black2{
+    height: 50px;
+    width: 100%;
+    background-color: black;
+}
+.nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav ul li{
+    list-style-type: none;
+}
+.nav ul li a{
+    position: relative;
+    text-decoration: none;
+    color: white;
+     margin:20px ;
+     padding: 8px 4px;
+     top: 10px;
+     font-size: 1.3rem;
+     font-family: 'Bree Serif', serif;
+    }
+    .nav ul li a:hover{
+          color: black;
+          background-color: white;
+          border-radius: 10px;
+          font-weight: bold;
+      }
+    * {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: 50px 350px;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 20px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  color: black;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dots{
+  margin-left: 50%;
+}
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+.content{
+  margin: 5px;
+  padding: 10px;
+  height: 400px;
+}
+.content .heading{
+  font-size: 1.6rem;
+  font-family: 'Bree Serif', serif;
+color: rgb(1, 75, 160);
+  font-weight: normal;
+  margin: 5px 100px;
+  line-height: 40px;  
+}
+.content .para{
+  font-size: 1.3rem;
+  font-family: 'Bree Serif', serif;
+  color: black; 
+  font-weight: normal;
+  margin: 5px 100px;  
+  line-height: 30px;
+}
+.foot{
+  background-color: black;
+  color: white;
+  height: 800px;
+  width:1500px;
+}
+.foot .reach h3{
+  font-size: 1.3rem;
+  font-family: 'Bree Serif', serif;
+  font-weight: normal;
+}
+.reach{
+  position: relative;
+  top: 100px;
+  left: 200px;
+  padding: 30px;
+line-height: 40px;
+}
+.foothead{
+  position: relative;
+  top: 100px;
+  left: 150px;
+  line-height: 50px;
+}
+.foothead h1{
+  font-size: 30px;
+  font-family:'Bree Serif', serif;
+  font-weight: lighter;
+
+}
+.foothead h4{
+  font-size: 20px;
+  font-family:'Bree Serif', serif;
+  font-weight: lighter;
+
+  color: rgb(50, 104, 255);
+}
+.reach p{
+  font-size: 1.1rem;
+  color: rgb(50, 104, 255);
+  font-weight: lighter;
+  font-family: sans-serif;
+}
+.reach p a{
+  text-decoration: none;
+  font-size: 1.1rem;
+  color: rgb(50, 104, 255);
+  font-weight: lighter;
+  font-family: sans-serif;
+}
+.foot h4 a{
+  text-decoration: none;
+  font-size: 1.1rem;
+  color: rgb(50, 104, 255);
+  font-weight: lighter;
+  font-family: sans-serif;
+}
+.foothead2{
+  position: relative;
+  top: -380px;
+  left:660px;
+  line-height: 50px;
+}
+.foothead2 h1{
+  font-size: 30px;
+  font-family:'Bree Serif', serif;
+  font-weight: lighter;
+
+}
+.reach2{
+  position: relative;
+  top: -330px;
+  left: 660px;
+  padding: 30px;
+line-height: 40px;
+
+}
+.reach2 p{
+  font-size: 1.1rem;
+  color: rgb(50, 104, 255);
+  font-weight: lighter;
+  font-family: sans-serif;
+}
+.reach2 h3{
+  font-size: 1.3rem;
+  font-family: 'Bree Serif', serif;
+  font-weight: normal;
+}
+.last{
+  background-color: rgb(97, 97, 97);
+  color: white;
+  font-size: 1.5rem;
+  font-family:'Bree Serif', serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  width: 100%;
+}
+html,body{
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x:hidden;
+  position: absolute;
+
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birla Institute Of Applied Sciences</title>
+    <link rel="stylesheet" href="/static/contact.css">
+    <link rel="stylesheet" media="screen and (max-width: 480px)" href="/static/phone.css">
+    <link rel="stylesheet" media="screen and (max-width: 480px)" href="/static/phone2.css">
+
+
+
+    <link rel="stylesheet" media="screen and (max-width: 480px)" href="phone.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Fill the registration form carefully</h1>
+    <form action="/contact" method="post" id="frm">
+    <input type="text" name="name" placeholder="Enter your Name" required>
+    <input type="text" name="Fname" placeholder="Enter your Father's Name" required>
+    <input type="text" name="Mname" placeholder="Enter your Mother's name" required>
+    <input type="number" name="mobile" placeholder="Enter your Mobile number" required>
+    <input type="email" name="email" placeholder="Enter your Email" required>
+    <div class="check"><h2>Stream</h3>
+        <input type="checkbox" name="check1" value="1" > CSE
+        <input type="checkbox" name="check2"   value="2">  ECE
+    </div>
+    <div class="check2"><h2>Gender</h3>
+        <input type="checkbox" name="checkM" value="1" > Male
+        <input type="checkbox" name="checkF"   value="2">  Female
+        <input type="checkbox" name="checkO"   value="3">  Other
+
+    </div>
+    <button class="btn">Submit</button>
+
+
+
+
+
+    </form>
+</body>
+</html>

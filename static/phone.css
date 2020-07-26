@@ -1,0 +1,209 @@
+
+
+.image{
+    display: inline;
+    position: absolute;
+    top: 20px;
+    left: 5px;
+}
+.image img{
+    height: 50px;
+    width: 50px;
+}
+.name h2{
+    font-size: 0.7rem;
+    line-height: 20px;
+}
+.name h3{
+    font-size: 0.4rem;
+}
+.name{  
+    top: 5px;
+    left: 60px;
+}
+.header{
+    top: 0px;
+    height: 70px;
+
+}
+.black2{
+    height: 120px;
+    background-color: black;
+
+}
+.nav ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.nav ul li a{
+    position: relative;
+    text-decoration: none;
+    color: white;
+     margin:5px ;
+     padding: 4px 4px;
+     top: 5px;
+     font-size: 0.3rem;
+     
+    }
+    .slideshow-container {
+        width: 170px;
+        left: 81px;
+        position: relative;
+        margin: 30px;
+
+      }
+      .prev, .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        margin-top: -22px;
+        padding: 8px;
+        color: white;
+        font-weight: bold;
+        font-size: 8px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+      }
+      .next {
+        right: 0;
+        top: 50%;
+        border-radius: 3px 0 0 3px;
+      }
+      .text {
+        color: #f2f2f2;
+        font-size: 8px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 70px;
+        margin-left:37px;
+        width: 60%;
+        text-align: center;
+        font-weight: bold;
+        color: black;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      }
+      .numbertext {
+        font-size: 6px;
+        padding: 4px 6px;
+        position: absolute;
+        top: 0;
+      }
+      .dots{
+        margin-left: 23%;
+      }
+      .dot {
+          position: relative;
+          height: 7px;
+          width: 7px;
+        top: -50px;
+        left: 90px;
+      }
+      .content{
+          display: flex;
+          flex-wrap: wrap;
+        margin: 0px;
+        height: 200px;
+      }
+      .content .heading{
+          position: relative;
+        font-size: 0.7rem;
+        top: -50px;
+        margin: 1px 10px;
+        /* line-height: 40px;   */
+      }
+      .content .para{
+          position: relative;
+          top: -60px;
+        font-size: 0.5rem; 
+        margin: 5px 10px;  
+        line-height: 15px;
+      }
+      .foot{
+        background-color: black;
+        color: white;
+        height: 300px;
+        width:500px;
+      }
+      .foot .reach h3{
+        font-size: 0.5rem;
+        
+      }
+      .reach{
+        position: relative;
+        top:40px;
+        left: 0px;
+        /* padding: 30px; */
+      line-height: 20px;
+      }
+      .foothead{
+        position: relative;
+        top: 50px;
+        left: 20px;
+        line-height: 20px;
+      }
+      .foothead h1{
+        font-size: 20px;
+        font-family:'Bree Serif', serif;
+        font-weight: lighter;
+      
+      }
+      .foothead h4{
+        font-size: 15px;
+       
+      }
+      .reach p{
+        font-size: 0.5rem;
+      
+      }
+      .reach p a{
+        font-size: 0.5rem;
+        
+      }
+      .foot h4 a{
+        font-size: 0.5rem;
+        
+      }
+      .foothead2{
+        position: relative;
+        top: -216px;
+        left:190px;
+        line-height: 20px;
+      }
+      .foothead2 h1{
+        font-size: 20px;   
+      }
+      .reach2{
+        position: relative;
+        top: -200px;
+        left: 170px;
+        /* padding: 30px; */
+      line-height: 20px;
+      
+      }
+      .reach2 p{
+        font-size: 0.5rem;
+     
+      }
+      .reach2 h3{
+        font-size: 0.7rem;
+       
+      }
+      .last{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 0.7rem;
+        height: 20px;
+        width: 100%;
+      }
+      html,body{
+          width: 100%;
+          height: 100%;
+          margin: 0px;
+          padding: 0px;
+          overflow-x: hidden;
+      }

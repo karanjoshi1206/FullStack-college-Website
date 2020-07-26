@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birla Institute Of Applied Sciences</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="stylesheet" media="screen and (max-width: 480px)" href="/static/phone.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="black">.</div>
+    <header class="header">
+        <div class="image">
+            <img src="/static/logo1.png" alt="BIAS">
+        </div>
+        <div class="name">
+            <h2>Birla Institute of Applied Sciences</h2>
+            <h3>बिरला इंस्टिट्यूट ऑफ़ अप्लाइड साइंसेस</h3>
+            <h3>Bhimtal, Distt: Nainital, Uttarakhand- 263136</h3>
+        </div>
+    </header>
+    <div class="black2">
+        <nav class="nav">
+            <ul>
+                <li><a href="#">The Institute </a></li>
+                <li><a href="#">Academics</a></li>
+                <li><a href="#">Admissions 2020</a> </li>
+                <li><a href="#">Campus Life</a> </li>
+                <li><a href="#">Placements</a></li>
+                <li><a href="#">Alumini Area</a> </li>
+                <li><a href="/contact">Contact Us</a> </li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="slideshow-container">
+
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 4</div>
+            <img src="/static/bias1.jpg" style="width:100%">
+            <div class="text">College Campus</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 4</div>
+            <img src="/static/bias2.jpg" style="width:100%">
+            <div class="text">Awesome Weather</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 4</div>
+            <img src="/static/bias3.jpg" style="width:100%">
+            <div class="text">Sports</div>
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">4 / 4</div>
+            <img src="/static/bias4.jpg" style="width:100%">
+            <div class="text">Cultural Activites</div>
+        </div>
+
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+
+    <!-- The dots/circles -->
+    <div class="dots" >
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+
+    </div>
+
+
+    <div class="content">
+        <h1 class="heading">Welcome to BIAS</h1>
+        <p class="para">The journey began in 1969 with the establishment of a Centre of the Birla Institute of Scientific Research (BISR) founded by Shri B. M. Birla, a renowned industrialist in the newly developing Bhimtal industrial belt. The aim was to provide basic workshop facilities and testing grounds for entrepreneurs to set up industrial units in the region. With the backing of educational institutions like Birla Institute of Technology, Mesra, Ranchi and B. M. Birla Science & Technology Centre, Jaipur it was a natural progression that an academic institution was established in the same campus. The Institute commenced its academic programme in 1990 in computer education leading to MCA degree. It was affiliated to Kumaun University. Expanding the horizons for professional education, the Institute also started a 3-year B.Tech. course in Electronics & Communication Engineering in the session 2000-01. This course has now been converted into a 4-years degree programme (post 10+2) with starting the year 2003-04.</p>
+    </div>
+<footer class="foot">
+    <div class="foothead">
+        <h1>Reach Us</h1>
+    <h4><a href="#">Birla Institute Of Applied Sciences</a></h4>
+    </div>
+    
+    <div class="reach">
+  
+
+    
+        <h3>Address</h3>
+        <p>Bhimtal, Nainital Uttarakhand - 263136 India</p>
+        <h3>Have any questions?</h3>
+        <p><a href="info@birlainstitute.co.in">info@birlainstitute.co.in</a></p>
+        <h3>Telephone:</h3>
+        <p>05942-247032 /247921/ 247095</p>
+        <h3>For Admission Queries:
+        </h3>
+        <p>9415364502
+
+        </p>
+    </div>
+    <div class="foothead2">
+        <h1>Latest Update</h1>
+  
+    </div>
+    
+    <div class="reach2">
+  
+        <h3>13 March</h3>
+        <p>Mr. RituRaj Joshi gets Gate Result AIR 29</p>
+        <h3>28 May</h3>
+         <p>Registration Form for Admission 2020</p>
+        
+        <h3>2 May</h3>
+        <p>IEEE 12th International Conference CICN</p>
+       
+        
+        
+    </div>
+</footer>
+<p class="last">© 2020 Birla Institute of Applied Sciences</p>
+<p class="last"> Bhimtal, Nanital. All Rights Reserved</p>
+
+    <!-- JAVASCRIPT -->
+    <script>
+        
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        // Next/previous controls
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        // Thumbnail image controls
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+        }
+    </script>
+</body>
+
+</html>
